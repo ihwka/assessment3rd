@@ -20,7 +20,7 @@ assessmentButton.onclick = () => {
   // TODO 診断結果表示エリアの作成
   resultDivided.innerText = '';
   
-    // headerDivided の作成
+  // headerDivided の作成
   const headerDivided = document.createElement('div');
   headerDivided.setAttribute('class', 'card-header');
   headerDivided.innerText = '診断結果';
